@@ -1,0 +1,67 @@
+import "package:flutter/material.dart";
+import 'dart:async';
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+import 'package:flutter_mobx/flutter_mobx.dart';
+
+import "../main.dart";
+import "home.dart";
+
+import "../stores/appdata.dart";
+
+var appData=AppData();
+bool loading=true;
+bool error=false;
+
+
+class LoadingScreen extends StatefulWidget{
+  @override
+  _LoadingScreen createState()=> _LoadingScreen();
+}
+
+
+class _LoadingScreen extends State<LoadingScreen>{
+
+  fetchData() async{
+  final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
+
+  if(response.statusCode==200){
+    appData.data=response.body;
+    print(response.body);
+    appData.data=jsonDecode(appData.data);
+    
+    setState((){
+    loading=false;
+    error=false;
+    });
+
+  }else{
+    setState((){
+    loading=false;
+    error=true;
+    });
+  }
+
+
+}
+
+
+
+    void initState(){
+    super.initState();
+    fetchData();    
+  }
+
+
+
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      body:loading ? CircularProgressIndicator() : error ? ElevatedButton(
+       child:Text("Try again"),
+       onPressed:(){
+        fetchData();
+        }) : Text(appData.data[0].toString())
+    );
+  }
+}
