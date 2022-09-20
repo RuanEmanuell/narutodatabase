@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Arquivos\\Projetos\\FLUTTER\\wheatert\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\Arquivos\\Projetos\\FLUTTER\\naruto\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Arquivos\\Projetos\\FLUTTER\\wheatert\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Arquivos\\Projetos\\FLUTTER\\naruto\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

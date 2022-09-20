@@ -22,12 +22,33 @@ class LoadingScreen extends StatefulWidget{
 
 class _LoadingScreen extends State<LoadingScreen>{
 
-  fetchData() async{
+  fetchClanData() async{
   final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
 
   if(response.statusCode==200){
     appData.data=response.body;
-    print(response.body);
+    appData.data=jsonDecode(appData.data);
+    
+    setState((){
+    loading=false;
+    error=false;
+    });
+
+  }else{
+    setState((){
+    loading=false;
+    error=true;
+    });
+  }
+
+
+}
+
+  fetchCharacterData() async{
+  final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
+
+  if(response.statusCode==200){
+    appData.data=response.body;
     appData.data=jsonDecode(appData.data);
     
     setState((){
@@ -46,10 +67,9 @@ class _LoadingScreen extends State<LoadingScreen>{
 }
 
 
-
     void initState(){
     super.initState();
-    fetchData();    
+    fetchClanData();    
   }
 
 
@@ -57,11 +77,18 @@ class _LoadingScreen extends State<LoadingScreen>{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      body:loading ? CircularProgressIndicator() : error ? ElevatedButton(
+      body:  loading ? Center(
+       child:Container(
+       width:100, 
+       height:100,
+       child:CircularProgressIndicator()
+       )) : error ? Center(
+       child:ElevatedButton(
        child:Text("Try again"),
        onPressed:(){
-        fetchData();
-        }) : Text(appData.data[0].toString())
+        fetchClanData();
+       }
+       )) : HomeScreen()
     );
   }
 }

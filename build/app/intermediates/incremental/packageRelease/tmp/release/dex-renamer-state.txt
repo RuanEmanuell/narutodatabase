@@ -1,4 +1,4 @@
-#Sat Sep 17 02:18:55 BRT 2022
-base.0=D\:\\Arquivos\\Projetos\\FLUTTER\\wheatert\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Tue Sep 20 10:58:48 BRT 2022
+base.0=D\:\\Arquivos\\Projetos\\FLUTTER\\naruto\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

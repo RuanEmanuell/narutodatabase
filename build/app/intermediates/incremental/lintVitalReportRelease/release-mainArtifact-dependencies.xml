@@ -1,11 +1,8 @@
 <dependencies>
   <compile
-      roots="__local_aars__:D:\Arquivos\Projetos\FLUTTER\wheatert\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,D:\Arquivos\Projetos\FLUTTER\wheatert\android@@:geolocator_android::release,androidx.multidex:multidex:2.0.1@aar,io.flutter:flutter_embedding_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10@jar,com.google.firebase:firebase-analytics:21.0.0@aar,io.flutter:armeabi_v7a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:arm64_v8a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:x86_64_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,com.google.android.gms:play-services-measurement:21.0.0@aar,com.google.android.gms:play-services-measurement-sdk:21.0.0@aar,com.google.android.gms:play-services-measurement-api:21.0.0@aar,com.google.android.gms:play-services-measurement-impl:21.0.0@aar,com.google.android.gms:play-services-ads-identifier:18.0.0@aar,com.google.android.gms:play-services-measurement-sdk-api:21.0.0@aar,com.google.android.gms:play-services-measurement-base:21.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-installations:17.0.1@aar,com.google.firebase:firebase-common:20.1.1@aar,com.google.firebase:firebase-installations-interop:17.0.1@aar,com.google.android.gms:play-services-tasks:18.0.1@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.0.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.8.0@aar,androidx.core:core:1.8.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.lifecycle:lifecycle-runtime:2.3.1@aar,androidx.lifecycle:lifecycle-runtime:2.3.1@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.3.1@jar,com.google.firebase:firebase-components:17.0.0@aar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation:1.2.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,androidx.tracing:tracing:1.0.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar,org.jetbrains:annotations:13.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar,com.google.firebase:firebase-annotations:16.0.0@jar">
+      roots="__local_aars__:D:\Arquivos\Projetos\FLUTTER\naruto\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,androidx.multidex:multidex:2.0.1@aar,io.flutter:flutter_embedding_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10@jar,com.google.firebase:firebase-analytics:21.0.0@aar,io.flutter:armeabi_v7a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:arm64_v8a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:x86_64_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar,org.jetbrains:annotations:13.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar,com.google.android.gms:play-services-measurement:21.0.0@aar,com.google.android.gms:play-services-measurement-sdk:21.0.0@aar,com.google.android.gms:play-services-measurement-api:21.0.0@aar,com.google.android.gms:play-services-measurement-impl:21.0.0@aar,com.google.android.gms:play-services-ads-identifier:18.0.0@aar,com.google.android.gms:play-services-measurement-sdk-api:21.0.0@aar,com.google.android.gms:play-services-measurement-base:21.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-installations:17.0.1@aar,com.google.firebase:firebase-common:20.1.1@aar,com.google.firebase:firebase-installations-interop:17.0.1@aar,com.google.android.gms:play-services-tasks:18.0.1@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.0.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,com.google.firebase:firebase-components:17.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation:1.2.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.google.firebase:firebase-annotations:16.0.0@jar,androidx.tracing:tracing:1.0.0@aar">
     <dependency
-        name="__local_aars__:D:\Arquivos\Projetos\FLUTTER\wheatert\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
-    <dependency
-        name="D:\Arquivos\Projetos\FLUTTER\wheatert\android@@:geolocator_android::release"
-        simpleName="com.baseflow.geolocator:geolocator_android"/>
+        name="__local_aars__:D:\Arquivos\Projetos\FLUTTER\naruto\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
     <dependency
         name="androidx.multidex:multidex:2.0.1@aar"/>
     <dependency
@@ -30,6 +27,12 @@
         name="io.flutter:arm64_v8a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar"/>
     <dependency
         name="io.flutter:x86_64_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar"/>
+    <dependency
+        name="org.jetbrains:annotations:13.0@jar"/>
+    <dependency
+        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar"/>
     <dependency
         name="com.google.android.gms:play-services-measurement:21.0.0@aar"/>
     <dependency
@@ -71,7 +74,7 @@
     <dependency
         name="androidx.customview:customview:1.0.0@aar"/>
     <dependency
-        name="androidx.core:core:1.8.0@aar"/>
+        name="androidx.core:core:1.6.0@aar"/>
     <dependency
         name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"/>
     <dependency
@@ -79,7 +82,7 @@
     <dependency
         name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"/>
     <dependency
-        name="androidx.lifecycle:lifecycle-runtime:2.3.1@aar"/>
+        name="androidx.lifecycle:lifecycle-runtime:2.2.0@aar"/>
     <dependency
         name="androidx.savedstate:savedstate:1.0.0@aar"/>
     <dependency
@@ -87,11 +90,11 @@
     <dependency
         name="androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar"/>
     <dependency
-        name="androidx.lifecycle:lifecycle-common:2.3.1@jar"/>
+        name="androidx.lifecycle:lifecycle-common:2.2.0@jar"/>
     <dependency
         name="com.google.firebase:firebase-components:17.0.0@aar"/>
     <dependency
-        name="androidx.arch.core:core-runtime:2.1.0@aar"/>
+        name="androidx.arch.core:core-runtime:2.0.0@aar"/>
     <dependency
         name="androidx.arch.core:core-common:2.1.0@jar"/>
     <dependency
@@ -106,24 +109,15 @@
         name="androidx.annotation:annotation:1.2.0@jar"/>
     <dependency
         name="androidx.annotation:annotation-experimental:1.1.0@aar"/>
-    <dependency
-        name="androidx.tracing:tracing:1.0.0@aar"/>
-    <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar"/>
-    <dependency
-        name="org.jetbrains:annotations:13.0@jar"/>
-    <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar"/>
     <dependency
         name="com.google.firebase:firebase-annotations:16.0.0@jar"/>
+    <dependency
+        name="androidx.tracing:tracing:1.0.0@aar"/>
   </compile>
   <package
-      roots="__local_aars__:D:\Arquivos\Projetos\FLUTTER\wheatert\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,D:\Arquivos\Projetos\FLUTTER\wheatert\android@@:geolocator_android::release,androidx.multidex:multidex:2.0.1@aar,io.flutter:flutter_embedding_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10@jar,com.google.firebase:firebase-analytics:21.0.0@aar,io.flutter:armeabi_v7a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:arm64_v8a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:x86_64_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,com.google.android.gms:play-services-measurement-api:21.0.0@aar,com.google.firebase:firebase-installations:17.0.1@aar,com.google.firebase:firebase-common:20.1.1@aar,com.google.android.gms:play-services-location:20.0.0@aar,com.google.android.gms:play-services-base:18.0.1@aar,com.google.android.gms:play-services-measurement:21.0.0@aar,com.google.android.gms:play-services-measurement-sdk:21.0.0@aar,com.google.firebase:firebase-installations-interop:17.0.1@aar,com.google.android.gms:play-services-tasks:18.0.1@aar,com.google.android.gms:play-services-measurement-impl:21.0.0@aar,com.google.android.gms:play-services-ads-identifier:18.0.0@aar,com.google.android.gms:play-services-measurement-sdk-api:21.0.0@aar,com.google.android.gms:play-services-measurement-base:21.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.0.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.8.0@aar,androidx.core:core:1.8.0@aar,org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar,androidx.concurrent:concurrent-futures:1.0.0@jar,androidx.lifecycle:lifecycle-runtime:2.3.1@aar,androidx.lifecycle:lifecycle-runtime:2.3.1@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,com.google.firebase:firebase-components:17.0.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.3.1@jar,androidx.arch.core:core-runtime:2.1.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.collection:collection:1.1.0@jar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation:1.2.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,org.jetbrains:annotations:13.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar,com.google.guava:listenablefuture:1.0@jar,com.google.firebase:firebase-annotations:16.0.0@jar">
+      roots="__local_aars__:D:\Arquivos\Projetos\FLUTTER\naruto\build\app\intermediates\flutter\release\libs.jar:unspecified@jar,androidx.multidex:multidex:2.0.1@aar,io.flutter:flutter_embedding_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10@jar,com.google.firebase:firebase-analytics:21.0.0@aar,io.flutter:armeabi_v7a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:arm64_v8a_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,io.flutter:x86_64_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar,com.google.android.gms:play-services-measurement-api:21.0.0@aar,com.google.firebase:firebase-installations:17.0.1@aar,com.google.firebase:firebase-common:20.1.1@aar,org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,com.google.android.gms:play-services-measurement:21.0.0@aar,com.google.android.gms:play-services-measurement-sdk:21.0.0@aar,com.google.android.gms:play-services-measurement-impl:21.0.0@aar,com.google.android.gms:play-services-ads-identifier:18.0.0@aar,com.google.android.gms:play-services-measurement-sdk-api:21.0.0@aar,com.google.android.gms:play-services-measurement-base:21.0.0@aar,com.google.android.gms:play-services-stats:17.0.2@aar,com.google.firebase:firebase-installations-interop:17.0.1@aar,com.google.android.gms:play-services-tasks:18.0.1@aar,com.google.firebase:firebase-measurement-connector:19.0.0@aar,com.google.android.gms:play-services-basement:18.0.0@aar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.legacy:legacy-support-core-utils:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,com.google.firebase:firebase-components:17.0.0@aar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.documentfile:documentfile:1.0.0@aar,androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar,androidx.print:print:1.0.0@aar,androidx.annotation:annotation:1.2.0@jar,org.jetbrains:annotations:13.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar,androidx.annotation:annotation-experimental:1.1.0@aar,com.google.firebase:firebase-annotations:16.0.0@jar">
     <dependency
-        name="__local_aars__:D:\Arquivos\Projetos\FLUTTER\wheatert\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
-    <dependency
-        name="D:\Arquivos\Projetos\FLUTTER\wheatert\android@@:geolocator_android::release"
-        simpleName="com.baseflow.geolocator:geolocator_android"/>
+        name="__local_aars__:D:\Arquivos\Projetos\FLUTTER\naruto\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"/>
     <dependency
         name="androidx.multidex:multidex:2.0.1@aar"/>
     <dependency
@@ -155,17 +149,13 @@
     <dependency
         name="com.google.firebase:firebase-common:20.1.1@aar"/>
     <dependency
-        name="com.google.android.gms:play-services-location:20.0.0@aar"/>
+        name="org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar"/>
     <dependency
-        name="com.google.android.gms:play-services-base:18.0.1@aar"/>
+        name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"/>
     <dependency
         name="com.google.android.gms:play-services-measurement:21.0.0@aar"/>
     <dependency
         name="com.google.android.gms:play-services-measurement-sdk:21.0.0@aar"/>
-    <dependency
-        name="com.google.firebase:firebase-installations-interop:17.0.1@aar"/>
-    <dependency
-        name="com.google.android.gms:play-services-tasks:18.0.1@aar"/>
     <dependency
         name="com.google.android.gms:play-services-measurement-impl:21.0.0@aar"/>
     <dependency
@@ -177,15 +167,19 @@
     <dependency
         name="com.google.android.gms:play-services-stats:17.0.2@aar"/>
     <dependency
+        name="com.google.firebase:firebase-installations-interop:17.0.1@aar"/>
+    <dependency
+        name="com.google.android.gms:play-services-tasks:18.0.1@aar"/>
+    <dependency
         name="com.google.firebase:firebase-measurement-connector:19.0.0@aar"/>
     <dependency
         name="com.google.android.gms:play-services-basement:18.0.0@aar"/>
     <dependency
         name="androidx.fragment:fragment:1.1.0@aar"/>
     <dependency
-        name="androidx.legacy:legacy-support-core-utils:1.0.0@aar"/>
-    <dependency
         name="androidx.viewpager:viewpager:1.0.0@aar"/>
+    <dependency
+        name="androidx.legacy:legacy-support-core-utils:1.0.0@aar"/>
     <dependency
         name="androidx.loader:loader:1.0.0@aar"/>
     <dependency
@@ -193,21 +187,9 @@
     <dependency
         name="androidx.customview:customview:1.0.0@aar"/>
     <dependency
-        name="androidx.core:core:1.8.0@aar"/>
+        name="androidx.core:core:1.6.0@aar"/>
     <dependency
-        name="org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar"/>
-    <dependency
-        name="androidx.concurrent:concurrent-futures:1.0.0@jar"/>
-    <dependency
-        name="androidx.lifecycle:lifecycle-runtime:2.3.1@aar"/>
-    <dependency
-        name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"/>
-    <dependency
-        name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"/>
-    <dependency
-        name="androidx.tracing:tracing:1.0.0@aar"/>
-    <dependency
-        name="com.google.firebase:firebase-components:17.0.0@aar"/>
+        name="androidx.lifecycle:lifecycle-runtime:2.2.0@aar"/>
     <dependency
         name="androidx.savedstate:savedstate:1.0.0@aar"/>
     <dependency
@@ -215,13 +197,21 @@
     <dependency
         name="androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar"/>
     <dependency
-        name="androidx.lifecycle:lifecycle-common:2.3.1@jar"/>
+        name="androidx.lifecycle:lifecycle-common:2.2.0@jar"/>
     <dependency
-        name="androidx.arch.core:core-runtime:2.1.0@aar"/>
+        name="androidx.tracing:tracing:1.0.0@aar"/>
+    <dependency
+        name="androidx.arch.core:core-runtime:2.0.0@aar"/>
     <dependency
         name="androidx.arch.core:core-common:2.1.0@jar"/>
     <dependency
+        name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"/>
+    <dependency
         name="androidx.collection:collection:1.1.0@jar"/>
+    <dependency
+        name="com.google.firebase:firebase-components:17.0.0@aar"/>
+    <dependency
+        name="androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar"/>
     <dependency
         name="androidx.documentfile:documentfile:1.0.0@aar"/>
     <dependency
@@ -229,17 +219,13 @@
     <dependency
         name="androidx.print:print:1.0.0@aar"/>
     <dependency
-        name="androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar"/>
-    <dependency
         name="androidx.annotation:annotation:1.2.0@jar"/>
-    <dependency
-        name="androidx.annotation:annotation-experimental:1.1.0@aar"/>
     <dependency
         name="org.jetbrains:annotations:13.0@jar"/>
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar"/>
     <dependency
-        name="com.google.guava:listenablefuture:1.0@jar"/>
+        name="androidx.annotation:annotation-experimental:1.1.0@aar"/>
     <dependency
         name="com.google.firebase:firebase-annotations:16.0.0@jar"/>
   </package>
