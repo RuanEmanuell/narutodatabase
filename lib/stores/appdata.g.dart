@@ -24,33 +24,18 @@ mixin _$AppData on _AppData, Store {
     });
   }
 
-  late final _$latAtom = Atom(name: '_AppData.lat', context: context);
+  late final _$clanDataAtom = Atom(name: '_AppData.clanData', context: context);
 
   @override
-  dynamic get lat {
-    _$latAtom.reportRead();
-    return super.lat;
+  dynamic get clanData {
+    _$clanDataAtom.reportRead();
+    return super.clanData;
   }
 
   @override
-  set lat(dynamic value) {
-    _$latAtom.reportWrite(value, super.lat, () {
-      super.lat = value;
-    });
-  }
-
-  late final _$lonAtom = Atom(name: '_AppData.lon', context: context);
-
-  @override
-  dynamic get lon {
-    _$lonAtom.reportRead();
-    return super.lon;
-  }
-
-  @override
-  set lon(dynamic value) {
-    _$lonAtom.reportWrite(value, super.lon, () {
-      super.lon = value;
+  set clanData(dynamic value) {
+    _$clanDataAtom.reportWrite(value, super.clanData, () {
+      super.clanData = value;
     });
   }
 
@@ -58,8 +43,7 @@ mixin _$AppData on _AppData, Store {
   String toString() {
     return '''
 data: ${data},
-lat: ${lat},
-lon: ${lon}
+clanData: ${clanData}
     ''';
   }
 }

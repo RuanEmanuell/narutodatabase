@@ -9,8 +9,6 @@ abstract class _AppData with Store{
   @observable
   var data;
   @observable
-  var lat;
-  @observable
-  var lon;
+  var clanData;
 }
 

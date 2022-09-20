@@ -17,7 +17,7 @@ void main(){
     routes:{
       "/loading":(context)=>LoadingScreen(),
       "/home":(context)=>HomeScreen(),
-      "/claninfo":(context)=>ClanInfo(clanName:""),
+      "/claninfo":(context)=>ClanInfo(clanName:"", clanColor:Color.fromARGB(255, 255, 67, 54)),
       "/credits":(context)=>CreditsScreen()
     }
    )

@@ -1,4 +1,4 @@
-#Tue Sep 20 10:33:56 BRT 2022
+#Tue Sep 20 16:56:05 BRT 2022
 base.1=D\:\\Arquivos\\Projetos\\FLUTTER\\naruto\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 path.1=classes2.dex
 base.0=D\:\\Arquivos\\Projetos\\FLUTTER\\naruto\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex

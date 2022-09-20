@@ -12,6 +12,7 @@ import "../stores/appdata.dart";
 
 
 
+
 class HomeScreen extends StatefulWidget{
   @override
   _HomeScreen createState()=>_HomeScreen();
@@ -21,15 +22,20 @@ class HomeScreen extends StatefulWidget{
 
 class _HomeScreen extends State<HomeScreen>{
 
+
   @override
   Widget build(BuildContext context){
+
 
     return Scaffold(
       appBar:AppBar(
         centerTitle:true,
         backgroundColor:Colors.white,
         elevation:0,
-        title:Text("Select a Clan", style:TextStyle(color:Colors.black))
+        title:Text("Select a Clan", style:TextStyle(
+          color:Colors.black,
+          fontSize:25,
+          fontWeight:FontWeight.bold))
       ),
       body:Center(
         child:Container(
@@ -43,7 +49,7 @@ class _HomeScreen extends State<HomeScreen>{
 
 
             clanName=="Aburame"? clanColor=Color.fromARGB(255, 199, 245, 172):clanColor;
-            clanName=="Akimichi"? clanColor=Color.fromARGB(255, 180, 36, 0):clanColor;
+            clanName=="Akimichi"? clanColor=Color.fromARGB(255, 207, 81, 49):clanColor;
             clanName=="Chinoike"? clanColor=Color.fromARGB(255, 209, 25, 0):clanColor;
             clanName=="Hatake"? clanColor=Color.fromARGB(255, 153, 153, 153):clanColor;
             clanName=="Hyuga"? clanColor=Color.fromARGB(255, 185, 208, 226):clanColor;
@@ -74,7 +80,9 @@ class _HomeScreen extends State<HomeScreen>{
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children:[
-                    Text(clanName),
+                    Text(clanName, style:TextStyle(
+                      fontSize:18
+                    )),
                     Container(width: 10),
                     Icon(Icons.info_outline)
                   ]
@@ -83,7 +91,7 @@ class _HomeScreen extends State<HomeScreen>{
             onTap:(){
               Navigator.push(context,
                MaterialPageRoute(
-                builder:(context)=>ClanInfo(clanName: clanName)
+                builder:(context)=>ClanInfo(clanName: clanName, clanColor:clanColor)
                ));
             }
             );

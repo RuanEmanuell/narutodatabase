@@ -22,7 +22,7 @@ class LoadingScreen extends StatefulWidget{
 
 class _LoadingScreen extends State<LoadingScreen>{
 
-  fetchClanData() async{
+  fetchData() async{
   final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
 
   if(response.statusCode==200){
@@ -43,33 +43,10 @@ class _LoadingScreen extends State<LoadingScreen>{
 
 
 }
-
-  fetchCharacterData() async{
-  final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
-
-  if(response.statusCode==200){
-    appData.data=response.body;
-    appData.data=jsonDecode(appData.data);
-    
-    setState((){
-    loading=false;
-    error=false;
-    });
-
-  }else{
-    setState((){
-    loading=false;
-    error=true;
-    });
-  }
-
-
-}
-
 
     void initState(){
     super.initState();
-    fetchClanData();    
+    fetchData();    
   }
 
 
@@ -86,7 +63,7 @@ class _LoadingScreen extends State<LoadingScreen>{
        child:ElevatedButton(
        child:Text("Try again"),
        onPressed:(){
-        fetchClanData();
+        fetchData();
        }
        )) : HomeScreen()
     );
