@@ -41,7 +41,7 @@ class _HomeScreen extends State<HomeScreen>{
         child:Container(
         color:Colors.white,
         child:ListView.builder(
-          itemCount:appData.data[0]["Available Clan Details"].length,
+          itemCount:appData.data[0]["Available Clan Details"].length-1,
           itemBuilder:(context, index){
 
             var clanColor;
@@ -65,7 +65,6 @@ class _HomeScreen extends State<HomeScreen>{
             clanName=="Uzumaki"? clanColor=Color.fromARGB(255, 250, 121, 0):clanColor;
             clanName=="Yamanaka"? clanColor=Color.fromARGB(255, 98, 151, 103):clanColor;
             clanName=="Otsutsuki"? clanColor=Color.fromARGB(255, 163, 144, 162):clanColor;
-            clanName=="Fuma"? clanColor=Color.fromARGB(255, 100, 138, 101):clanColor;
 
 
             return InkWell(
