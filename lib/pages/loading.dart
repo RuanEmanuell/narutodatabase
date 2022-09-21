@@ -9,7 +9,11 @@ import "home.dart";
 
 import "../stores/appdata.dart";
 
+//Loading Screen
+
+//MOBX
 var appData=AppData();
+
 bool loading=true;
 bool error=false;
 
@@ -22,6 +26,7 @@ class LoadingScreen extends StatefulWidget{
 
 class _LoadingScreen extends State<LoadingScreen>{
 
+  //Fetching data from the API
   fetchData() async{
   final response=await http.get(Uri.parse("https://naruto-details.herokuapp.com/clan"));
 
@@ -54,6 +59,7 @@ class _LoadingScreen extends State<LoadingScreen>{
   @override
   Widget build(BuildContext context){
     return Scaffold(
+      //Defining what is going to appear in the screen, based on the loading and error bools
       body:  loading ? Center(
        child:Container(
        width:100, 

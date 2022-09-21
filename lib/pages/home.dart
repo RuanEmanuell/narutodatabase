@@ -10,7 +10,7 @@ import "claninfo.dart";
 
 import "../stores/appdata.dart";
 
-
+//Home Screen
 
 
 class HomeScreen extends StatefulWidget{
@@ -44,6 +44,7 @@ class _HomeScreen extends State<HomeScreen>{
           itemCount:appData.data[0]["Available Clan Details"].length-1,
           itemBuilder:(context, index){
 
+            //Defining the clan name and color based on the name
             var clanColor;
             var clanName=appData.data[0]["Available Clan Details"][index];
 
@@ -88,6 +89,7 @@ class _HomeScreen extends State<HomeScreen>{
                 )
             ),
             onTap:(){
+              //Sending arguments to the clan info screen about the selected clan
               Navigator.push(context,
                MaterialPageRoute(
                 builder:(context)=>ClanInfo(clanName: clanName, clanColor:clanColor)
