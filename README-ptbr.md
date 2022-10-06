@@ -22,7 +22,7 @@ mobx_codegen
 Também lembre de mudar seu diretório de assets em pubsbec.yaml para lib/assets/
 
 ### Aqui estão imagens do projeto rodando:
-![Screenshot_150](https://user-images.githubusercontent.com/113607857/191507735-7b3e4642-856a-4e2d-b3f3-167326188388.png)
-![Screenshot_151](https://user-images.githubusercontent.com/113607857/191507743-ad4490d7-8019-4529-a2f6-5cf77b8698c9.png)
+![Screenshot_152](https://user-images.githubusercontent.com/113607857/191573217-9674e762-d215-4407-a91f-bb161b034804.png)
+![Screenshot_154](https://user-images.githubusercontent.com/113607857/191573076-57bb827b-44dc-44ed-be1f-5cf20a86000a.png)
 
 ### Esse projeto foi feito apenas por estudos!!
