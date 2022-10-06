@@ -1,4 +1,4 @@
-### Mobiledex
+### NarutoDataBase
 
 A Naruto Database app made in Flutter, using the Naruto Database API
 
