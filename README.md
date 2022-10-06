@@ -1,3 +1,5 @@
+# Veja a versão em Português <a href="README-ptbr.md">aqui</a>
+
 ### NarutoDataBase
 
 A Naruto Database app made in Flutter, using the Naruto Database API
